@@ -110,7 +110,7 @@ In nutrition.py:
 - MAX_NAME_LENGTH = 200: longest accepted food item name.
 - MAX_NUTRIENT_GRAMS = 10000: largest accepted grams of fat, carbohydrates or protein.
 - MAX_SERVINGS = 100000: largest accepted number of servings.
-- MAX_NUM_ATTEMPTS = 2: maximim attempts per input (first entry + one retry). Must be an integer greater than 0.
+- MAX_NUM_ATTEMPTS = 2: maximum attempts per input (first entry + one retry). Must be an integer greater than 0.
 - DEFAULT_SERVINGS_VALUE = 1.0: default number of servings (used when value is blank, or still invalid after the last attempt).
 
 In food_item.py (also imported by nutrition.py):
